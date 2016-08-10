@@ -1,4 +1,4 @@
-puppet-module-herculesteam-augeasproviders-pam (2.1.0-0calibre1~bpo8-1) calibre9; urgency=low
+puppet-module-herculesteam-augeasproviders-pam (2.1.0-0calibre1~bpo8+1) calibre9; urgency=low
 
   * Initial release
 
