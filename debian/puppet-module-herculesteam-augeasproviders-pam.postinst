@@ -20,8 +20,8 @@ set -e
 
 case "$1" in
     configure)
-        update-alternatives --install /usr/share/puppet/modules/augeasproviders_pam puppet-module-augeasprovider_pam \
-            /usr/share/puppet/modules.available/augeasproviders_pam 500
+        update-alternatives --install /usr/share/puppet/modules/augeasproviders-pam puppet-module-augeasprovider-pam \
+            /usr/share/puppet/modules.available/herculesteam-augeasproviders-pam 500
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
