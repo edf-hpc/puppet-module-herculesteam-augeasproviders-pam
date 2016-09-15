@@ -20,7 +20,7 @@ set -e
 
 case "$1" in
     configure)
-        update-alternatives --install /usr/share/puppet/modules/logrotate puppet-module-augeasprovider_pam \
+        update-alternatives --install /usr/share/puppet/modules/augeasproviders_pam puppet-module-augeasprovider_pam \
             /usr/share/puppet/modules.available/augeasproviders_pam 500
     ;;
 
